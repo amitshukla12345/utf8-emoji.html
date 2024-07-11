@@ -1,0 +1,30 @@
+.container
+{
+    background-color: yellow;
+    height: 700px;
+    display:grid;
+    grid-template-columns: 3fr 2fr 1fr;
+    grid-row-gap:20px;
+    grid-column-gap:40px;
+    grid-gap:40px;
+}
+.box
+{
+    background-color: purple;
+    border:2px solid red;
+    color:white;
+}
+#box1{
+    background-color: palegoldenrod;
+    grid-row-start: 2;
+    grid-row-end:4;
+    grid-column-start:3 ;
+    grid-column-start: 1;
+    grid-column-end:3 ;
+}
+#box2{
+    background-color: indianred;
+    grid-row-start: 1;
+    grid-column-start:1 ;
+    grid-column-end:3;
+}
